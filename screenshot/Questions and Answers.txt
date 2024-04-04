@@ -1,0 +1,11 @@
+1. Spring: Spring is a comprehensive framework for building enterprise Java applications. It provides support for various aspects of application development, including dependency injection, aspect-oriented programming, transaction management, and more.
+
+2. Spring Boot: Spring Boot is an extension of the Spring framework that aims to simplify the process of creating production-ready, stand-alone Spring-based applications. It provides conventions for rapid development, auto-configuration, and embedded server deployment.
+
+3. Relation between Spring Platform and Spring Boot: Spring Boot is built on top of the Spring framework. It leverages many of the features provided by the Spring platform while also offering additional utilities and conventions to streamline development.
+
+4. Relation between Spring Platform and Spring Framework: The Spring framework is the core of the Spring platform. It provides fundamental features such as dependency injection, aspect-oriented programming, and more. The Spring platform encompasses additional projects and tools built around the Spring framework, such as Spring Boot, Spring Data, Spring Security, etc.
+
+5. Dependency Injection (DI): Dependency Injection is a design pattern where objects are passed their dependencies rather than creating them internally. In Spring, DI is achieved through the Inversion of Control (IoC) container, which manages the instantiation and wiring of application components.
+
+6. Inversion of Control (IoC): Inversion of Control is a principle where the control flow of a program is inverted, meaning the framework or container controls the flow of the program instead of the developer. In the context of Spring, IoC is implemented through the DI container, which manages the creation and lifecycle of application objects, thereby promoting loose coupling and easier testing.
